@@ -1,10 +1,7 @@
 # DataSeparatorUtility
 
 A tiny CLI utility built with Spring Boot 3 and Java 17.  
-Scans text files, splits lines into **integers**, **floats**, and **strings**,  
-writes each type to its own file, and prints simple (`-s`) or full (`-f`) statistics.  
-Supports appending (`-a`) and custom output dir / filename prefix (`-o`, `-p`).  
-Handles missing files and I/O errors without crashing.
+Scans text files, splits lines into **integers**, **floats**, and **strings**, writes each type to its own file, and prints simple (`-s`) or full (`-f`) statistics. Supports appending (`-a`) and custom output dir / filename prefix (`-o`, `-p`). Handles missing files and I/O errors without crashing.
 
 ---
 
